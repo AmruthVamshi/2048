@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    </script>
+</head>
+<body>
+  <header><h1>2048</h1></header>
+  <div id="container-main">
+
+      <div class='score-section'>
+          <div class="scoreAndToogle">
+              <table class="grid-scorecontainer">
+                <tr class= "score">
+                  <td>Best Score</td>
+                  <td>Score</td> 
+                </tr>
+                <tr class="score">
+                  <td class="grid-scoreitem bestScore"></td>
+                  <td class="grid-scoreitem Score"></td>
+                </tr>
+              </table>
+              <button class='toogleEmoji first'>Emoji / numbers</button>
+          </div>
+      </div>
+
+      <div class="grid-section">
+        
+        <div class='grid-4X4container'>
+          <div class='gameover'>
+            <div class='inside-gameover'>
+            <h1 class='gameovertext'>Game Over!</h1>
+            <button class='try-again'>Try Again</button>
+            </div>
+          </div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+          <div class="tile">.</div>
+        </div>
+
+        <button class='toogleEmoji second'>Emoji / numbers</button>
+      </div>
+
+        <div class='rank-section'>
+          <div class='ranking'>
+            <table>
+              <tr>
+                <th>Rank</th> 
+                <th>Score</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td class='leaderboard'>-</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td class='leaderboard'>-</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td class='leaderboard'>-</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+  
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="./2048/jquery.touchSwipe.min.js"></script>
+  <script src="./2048/helper.js"></script>
+  <script src="./2048/grid.js"></script>
+  <script src="./2048/app.js"></script>
+</body>
+</html>
